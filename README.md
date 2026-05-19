@@ -28,6 +28,8 @@ npx playwright test
 # Headed (watch the browser)
 npx playwright test --headed
 
+# on Chrome
+npx playwright test --project=chromium
 
 # Debug mode (step through)
 npx playwright test --debug
