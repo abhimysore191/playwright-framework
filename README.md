@@ -23,20 +23,20 @@ npx playwright install --with-deps
 
 ```bash
 # Headless (default)
-npm test
+npx playwright test
 
 # Headed (watch the browser)
-npm run test --headed
+npx playwright test --headed
 
 
 # Debug mode (step through)
-npm run test --debug
+npx playwright test --debug
 ```
 
 ### 4 · View HTML report
 
 ```bash
-npm run test:report
+npx playwright show-report
 ```
 
 ---
