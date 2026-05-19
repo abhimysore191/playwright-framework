@@ -1,7 +1,6 @@
 import { APIRequestContext } from '@playwright/test';
 import { PracticeAppEndpoints } from './endpoint';
 import * as BaseRequest from './base-request';
-import '../utils/decorators/step.decorators';
 
 export class LoginApi {
     readonly request: APIRequestContext;
